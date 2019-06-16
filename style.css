@@ -1,7 +1,7 @@
-{
+*{
     margin: 0;
     padding: 0;
-    border-sizing:border-box;
+    box-sizing:border-box;
 }
 
 body{
@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     align-items: center;
     /*bytt på fargene til bakgrunnen senere*/
-    background: linear-gradient(rgb(47,150,163)rgb(48,62,143));
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
     font-family: sans-serif;
     /*bytt farge på fonten*/
     color: pink;
